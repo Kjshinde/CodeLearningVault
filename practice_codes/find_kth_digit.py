@@ -14,6 +14,7 @@ def get_num():
     
 
 def find_k_pos(inp_num,k_pos,num_len):
+    
     inp_num_int = int(inp_num)  #converting the input number into an integer
     k_pos_int = int(k_pos)      #converting the position value to integer
     num_len_int = int(num_len)  #converting the length of number into an integer
