@@ -5,7 +5,7 @@
 def find_repeat_val(usr_list):
     
     rep_ele_lst = []    #list of repeated elements 
-    for j in range(1,len(usr_list)):
+    for j in range(0,len(usr_list)):
         cur_ele = usr_list[j]
         for i in range(j+1, len(usr_list)):
             nxt_ele = usr_list[i]
